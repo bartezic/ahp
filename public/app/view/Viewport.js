@@ -16,7 +16,7 @@ Ext.define('AHP.view.Viewport', {
         xtype:'toolbar',
         height: 28,
         style: 'margin-top:5px; padding-top:5px; ',
-        html: '<p align="center"><i>&copy; 2011, Oleksyn Viktor</i></p>',
+        html: '<div align="center">&copy; 2011-2013 Oleksyn Viktor</div>',
         region:'south'
     }]
 });	
