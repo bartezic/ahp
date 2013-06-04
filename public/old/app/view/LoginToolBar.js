@@ -1,7 +1,7 @@
 Ext.define('AHP.view.LoginToolBar',{
 	extend: 'Ext.toolbar.Toolbar',
 	alias: 'widget.logintoolbar',
-        autoScroll:true,
+  autoScroll:true,
 	
 	initComponent:function(){
 		this.items = [/*{

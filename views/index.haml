@@ -1,9 +1,17 @@
 !!!
 %html
   %head
-    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
-    %title#page-title Analytic Hierarchy Process
-    %link{:href => "http://cdn.sencha.com/ext/gpl/4.2.0/resources/css/ext-all.css", :rel => "stylesheet"}/
-    %script{:src => "http://cdn.sencha.com/ext/gpl/4.2.0/ext-all.js"}
-    %script{:src => "app.js", :type => "text/javascript"}
+    %meta{content: "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+    %link{href: "//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css", rel: "stylesheet"}
+    %script{src: "http://code.jquery.com/jquery.js"}
+    %script{src: "//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"}
+    %title Метод аналізу ієрархій
   %body
+    .container
+      .row
+        .span12
+          %h1 Метод аналізу ієрархій
+          %h2
+            %a{ href: '/new'} МАІ 2.0
+          %h2
+            %a{ href: '/old'} МАІ 1.0
